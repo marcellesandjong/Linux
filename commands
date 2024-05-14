@@ -1,0 +1,38 @@
+1 date ==> to check the date
+2 uptime ==> to check how long the server have been up
+3 whoami ==> to check who is logged in
+4 cd ==> to change directory
+5 cp ==> to copy files and directory
+6 mv ==> to rename a file or move it to a new location
+7 free ==> to check memory
+8 touch ==> to create files
+9 clear ==> to clear the terminal
+10 top ==> to check cpu, memory, uptime, and all the process running
+11 uname -r ==> to check the kernel version
+12 history ==> to check previous typed command
+13 exit ==> to exit a terminal or a user
+14 echo ==> to display any message
+15 sudo ==> to escalate privilege
+16 mkdir ==> to create folders
+17 lsblk ==> to check block device or hard drive
+18 cal ==> to check the calendar
+19 man ==> to check documentation about specific command
+20 ls ==> to list directory content
+21 pwd ==> to check the current working directory
+22 rm ==> to delete files and directories
+23 nproc ==> check number of cpu
+24 ssh ==> use to login to a linux server remotely 
+25 find ==> use to check file or directory path
+26 vi ==> to edit files
+27 id ==> to check user's id
+28 df ==> to check disk utilisation
+29 lscpu ==> check cpu info 
+30 cat ==> display file content
+31 more ==> display one page document at the time
+32 less ==> display one page document at the time
+33 grep ==> filter strings from file
+34 wget ==> download file from a url source
+35 yum, apt, ==> install packages 
+36 ping ==> check connectivity between two devices.
+37 systemctl ==> start, stop, restart, enable 
+36 cat /etc/os-release ==> os type and version  

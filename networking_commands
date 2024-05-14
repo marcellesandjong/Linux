@@ -1,0 +1,71 @@
+ifconfig
+Function: Display network interface configuration.
+Example: ifconfig (shows information about all network interfaces).
+
+ip
+Function: Display or manipulate routing, devices, policy routing, and tunnels.
+Example: ip addr show (shows IP addresses of all network interfaces).
+
+route
+Function: Display or manipulate the IP routing table.
+Example: route -n (displays the routing table in numeric format).
+
+ping
+Function: Send ICMP ECHO_REQUEST packets to a network host.
+Example: ping google.com (checks connectivity to google.com).
+
+traceroute
+Function: Trace the route taken by packets to a network host.
+Example: traceroute google.com (displays the route taken by packets to reach google.com).
+
+netstat
+Function: Display network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+Example: netstat -tuln (shows listening TCP and UDP ports).
+
+ss
+Function: Display socket statistics.
+Example: ss -t (shows TCP socket statistics).
+
+hostname
+Function: Display or set the system's hostname.
+Example: hostname (displays the current hostname).
+
+dig
+Function: DNS lookup utility.
+Example: dig google.com (performs a DNS lookup for google.com).
+
+nslookup
+Function: Query DNS servers to obtain domain name or IP address mapping.
+Example: nslookup google.com (performs a DNS lookup for google.com).
+
+nmap
+Function: Network exploration and security auditing tool.
+Example: nmap -Pn target_ip (performs a port scan on the target IP).
+
+ssh
+Function: Secure Shell client.
+Example: ssh user@hostname (connects to a remote host via SSH).
+
+scp
+Function: Securely copy files between hosts.
+Example: scp file.txt user@hostname:/remote/path/ (copies file.txt to a remote host).
+
+curl
+Function: Transfer data from or to a server.
+Example: curl https://example.com (downloads content from the specified URL).
+
+wget
+Function: Download files from the internet.
+Example: wget https://example.com/file.txt (downloads the file from the specified URL).
+
+iptables
+Function: Firewall administration tool.
+Example: iptables -L (displays firewall rules).
+
+tcpdump
+Function: Network packet analyzer.
+Example: tcpdump -i eth0 (captures and displays network packets on interface eth0).
+
+hostnamectl
+Function: Control system hostname and related settings.
+Example: hostnamectl set-hostname new_hostname (sets the system hostname to "new_hostname").
